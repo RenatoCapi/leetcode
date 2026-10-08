@@ -1,12 +1,11 @@
 package com.leetcode.medium;
 
-import static org.junit.jupiter.api.Assertions.assertIterableEquals;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -18,8 +17,8 @@ public class AddTwoNumbersTest {
         AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
 
         ListNode answer = addTwoNumbers.addTwoNumbers(input1, input2);
-        List<Integer> arrayAnswer = listNodeToArraylist(answer, new ArrayList<Integer>());
-        List<Integer> arrayExpected = listNodeToArraylist(expectedAnswer, new ArrayList<Integer>());
+        List<Integer> arrayAnswer = listNodeToArraylist(answer, new ArrayList<>());
+        List<Integer> arrayExpected = listNodeToArraylist(expectedAnswer, new ArrayList<>());
 
         assertIterableEquals(arrayAnswer, arrayExpected);
     }
@@ -41,7 +40,7 @@ public class AddTwoNumbersTest {
     }
 
     private static List<Integer> arrayToList(Integer... numbers) {
-        return new ArrayList<Integer>(Arrays.asList(numbers));
+        return new ArrayList<>(Arrays.asList(numbers));
     }
 
     private static ListNode arrayToListNode(List<Integer> inputList) {
