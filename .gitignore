@@ -1,1 +1,3 @@
 leetcode/target/*
+leetcode/src/main/java/com/leetcode/medium/MinimumSumSquaredDifference.java
+leetcode/src/test/java/com/leetcode/medium/MinimumSumSquaredDifferenceTest.java
