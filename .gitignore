@@ -1,6 +1,3 @@
 leetcode/target/*
 leetcode/src/main/java/com/leetcode/medium/MinimumSumSquaredDifference.java
 leetcode/src/test/java/com/leetcode/medium/MinimumSumSquaredDifferenceTest.java
-leetcode/src/test/java/com/leetcode/easy/RectangleOverlapTest.java
-.gitignore
-leetcode/src/main/java/com/leetcode/easy/RectangleOverlap.java
